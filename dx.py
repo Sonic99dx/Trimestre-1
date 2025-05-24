@@ -6,8 +6,7 @@ op1=base1**ex1
 op2=base2**ex2
 result=op1*op2
 print (f"el resultado de la potencia fue",result)
-
-a=
+# esto es un comnetario
 
 
 
