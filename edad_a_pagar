@@ -1,0 +1,36 @@
+# numbre=input("Ingrese su nombre")
+# edad=input("Ingrese su edad")
+# if edad>=18:
+#     print("Es mayor de edad puede continuar")
+# else:
+#     print("Lo sentimos es imposible continuar hasta que cumpla 18 años")
+# cedula=int(input("ingrese su cedula"))
+# contr=input("Ingrese su contraseña")
+# cant=int(input("Ingrese el numero de credito"))
+# print("Listo se ah terminado todo en breve llegara su credito bancario")
+
+
+
+# #Edad para pagar
+# edad=int(input("Introduce una edad: "))
+# if edad<4:
+#     print("Pasa gratis")
+# elif edad<=18:
+#     print("Paga 4 auros")
+# else:
+#     print("Paga 18 euros")
+
+# #Calculadora
+num1=int(input("Introduce un numero"))
+num2=int(input("Introduce otro numero"))
+op=input("Coloca 1 para suma 2 para resta 3 para multiplicacion y 4 para division ")
+if op==1:
+    print(num1+num2)
+elif op==2:
+    print(num1-num2)
+elif op==3:
+    print(num1/num2)
+elif op==4:
+    print(num1*num2)
+else:
+    print("Error pide ayuda a alguien")
