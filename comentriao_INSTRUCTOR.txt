@@ -1,0 +1,5 @@
+El repositorio va tomando una muy buena forma y se nota el progreso que has logrado; sin embargo, es importante que dediques más tiempo a documentar las líneas de código, ya que una buena documentación facilita la comprensión del proyecto tanto para ti como para cualquier otra persona que pueda trabajar en él en el futuro. Además, he notado que algunos archivos están bastante vacíos o con contenido limitado, por lo que sería ideal llenarlos con ejemplos, explicaciones o ejercicios prácticos relacionados al tema que abordan.
+
+Te recomiendo también revisar la estructura general del repositorio para asegurarte de que todos los archivos estén organizados de manera lógica y coherente, lo que mejora la navegabilidad y el mantenimiento del proyecto. Incorporar un archivo README detallado, con instrucciones claras para ejecutar el proyecto y una descripción general, también aportará mucho valor.
+
+En resumen, sigue adelante con el buen trabajo, pero pon especial atención en enriquecer la documentación y completar los archivos para que el repositorio sea más robusto, útil y profesional.
