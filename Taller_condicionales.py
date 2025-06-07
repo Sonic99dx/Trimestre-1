@@ -109,16 +109,12 @@
 #     print("EL nombre no es marta")
 print("Ejercicio num15")
 print("Ejercicio num15")
-lista5 = []  # Lista vacía
-
-# Llenar la lista con 3 colores ingresados por el usuario
+lista5 = []
 for i in range(3):
     color = input("Ingresa un color: ")
     lista5.append(color)
 
 print("Colores ingresados:", lista5)
-
-# Revisar si alguno de los colores es "azul"
 if "azul" in lista5:
     lista5.remove("azul")  # Elimina la primera ocurrencia de "azul"
     nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")
