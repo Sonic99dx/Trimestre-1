@@ -63,11 +63,11 @@
 #     print("Puedes pasar a la sala vip")
 # else:
 #     print("No puedes pasar a la sala vip")
-print("Multiplo de 5 y 3")
-num53=int(input("Ingresa el numero: "))
-op2= (5*(num53//5))-(3*(num53//3))
-if op2==0:
-    print("Es multiplo de 3 y 5")
+# print("Multiplo de 5 y 3")
+# num53=int(input("Ingresa el numero: "))
+# op2= (5*(num53//5))-(3*(num53//3))
+# if op2==0:
+#     print("Es multiplo de 3 y 5")
 # else:
 #     print("No es multiplo")
 # print("Division de 2")
@@ -78,4 +78,52 @@ if op2==0:
 # if opdx==0:
 #     print(f"Es multiplo de {numver1} y {numver2}")
 # else:
+#     print("No es multiplo")
+# print("Lista que bendicion")
+# lista=[]
+# lista=(int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")))
+# print(lista)
+# if lista[2]<=10:
+#     print("Es menor o igual a 10")
+# else:
+#     print("Es meyor o igual a 10")
+# print("Numero 7 donde estara")
+# lista2=[3, 5, 7, 9]
+# if lista2[2]==7:
+#     print(f"El numero es {lista2[2]}")
+# else:
+#     print("el numero no es 7")
+# print("Lista sumada")
+# lista3=[4, 6, 2, 8]
+# suma=lista3[0]+lista3[1]
+# if suma<=10:
+#     print("suma baja")
+# else:
+#     print("suma alta")
+# print("Lista de la death note (Ejercicio 14)")
+# lista4=["Ana","Luis","Pedro","Marta"]
+# print(lista4)
+# if lista4[3]=="Marta":
+#     print("El nombre es marta")
+# else:
+#     print("EL nombre no es marta")
+print("Ejercicio num15")
+print("Ejercicio num15")
+lista5 = []  # Lista vacía
 
+# Llenar la lista con 3 colores ingresados por el usuario
+for i in range(3):
+    color = input("Ingresa un color: ")
+    lista5.append(color)
+
+print("Colores ingresados:", lista5)
+
+# Revisar si alguno de los colores es "azul"
+if "azul" in lista5:
+    lista5.remove("azul")  # Elimina la primera ocurrencia de "azul"
+    nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")
+    lista5.append(nuevo_color)
+else:
+    print("Todo está bien")
+
+print("Lista final:", lista5)
