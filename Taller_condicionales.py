@@ -117,7 +117,7 @@ for i in range(3):
 print("Colores ingresados:", lista5)
 if "azul" in lista5:
     lista5.remove("azul")  # Elimina la primera ocurrencia de "azul"
-    nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")
+    nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")    #algo
     lista5.append(nuevo_color)
 else:
     print("Todo está bien")
