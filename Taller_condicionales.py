@@ -37,14 +37,45 @@
 #     print("Es menor")
 # print("EL mayor es",num2)
 # print("10% de descuento!!!!")
-# precio=float(input("Ingresa el precio total de 1.00 a 200.00 dolares"))
-# if precio<100:
-#     print("NO recibes el 10% mal ahi master")
+# producto=float(input("Ingresa el precio del producto de 1.00 a 200.00 dolares"))
+# producto2=float(input("Ingresa el precio del producto de 1.00 a 200.00 dolares"))
+# op=producto+producto2
+# if op<100:
+#     print("NO recibes el 10% mal ahi master precio total",op)
 # else:
-#     print("Recibes tu descuento")
-# print("Votaciones")
+#     prt=op-0.10/op
+#     print("Recibes tu descuento",prt)
+# # print("Votaciones")
 # edad=int(input("Ingresa tu edad"))
 # if edad>=18:
 #     print("Puede votar")
 # else:
 #     print("No puede votar")
+# print("VIP Broooooooooo")
+# precio=int(input("Ingresa la cantidad a pagar"))
+# if precio>=1000:
+#     prc=0.20/precio
+#     print("Optienes vip precio total: ",prc)
+# else:
+#     print("NO optienes vip")
+# vip=input("Eres vip o normal")
+# if vip=="vip":
+#     print("Puedes pasar a la sala vip")
+# else:
+#     print("No puedes pasar a la sala vip")
+print("Multiplo de 5 y 3")
+num53=int(input("Ingresa el numero: "))
+op2= (5*(num53//5))-(3*(num53//3))
+if op2==0:
+    print("Es multiplo de 3 y 5")
+# else:
+#     print("No es multiplo")
+# print("Division de 2")
+# num53=int(input("Ingresa el numero: "))
+# numver1=int(input("Ingresa el numero que se dividira para verificar: "))
+# numver2=int(input("Ingresa el numero que se dividira para verificar por segunda vez: "))
+# opdx= (numver1*(num53//numver1))-(numver2*(num53//numver2))
+# if opdx==0:
+#     print(f"Es multiplo de {numver1} y {numver2}")
+# else:
+
