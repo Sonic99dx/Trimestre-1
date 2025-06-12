@@ -122,7 +122,7 @@
 #     print("Todo está bien")
 
 # print("Lista final:", lista5)
-print("-----Ejercicios de tupla------------------------------------------------------------------------------------------------------------------------------------")
+# print("-----Ejercicios de tupla------------------------------------------------------------------------------------------------------------------------------------")
 # print("Tupla de valores")
 # tupla1=(5,8,12,20)
 # print(tupla1)
@@ -136,8 +136,42 @@ print("-----Ejercicios de tupla-------------------------------------------------
 #     print("Edad mayor a 30")
 # else:
 #     print("Edad menor o igual a 30")
-print("Tupla convertida")
-tupla3=(1,2,3)
-lista3=list(tupla3)
-print(lista3)
-if 2 in lista3:
+# print("Tupla convertida")
+# tupla3=(1,4,2)
+# lista6=list(tupla3)
+# print(lista6)
+# if lista6[2]==2:
+#     lista6.remove(2)
+#     lista6.append(10)
+#     tupla4=tuple(lista6)
+#     print(tupla4)
+# else:
+#     print("Error")
+# print("coordenadas")
+# tupla5=(4,9)
+# if tupla5[1]>5:
+#     print(tupla5,"Coordenada alta")
+# else:
+#     print("Coordenada baja")
+# print("Comparacion")
+# tuplacomp1=(3,4)
+# tuplacomp2=(3,5)
+# if tuplacomp1==tuplacomp2:
+#     print("Las tuplas son iguales")
+# else:
+#     print("Las tuplas no son iguales")
+print("-----Ejercicios de diccionarios----------------------------------------------------------------------------------------------------------------------------------")
+# print("Adulto o Joven")
+# nom={"nombre":"Juan","Edad":17}
+# if nom["Edad"]>=18:
+#     print("Es un Adulto")
+# else:
+#     print("No es un adulto")
+print("Edad cambiada")
+dicc={"nombre":"Lucia","Edad":20}
+print("EL diccionario es: ",dicc)
+if dicc["Edad"]>18:
+    dicc["Edad"]=21
+    print("El nuevo diccionario es: ",dicc)
+else:
+    print("No se a cambiado nada")
