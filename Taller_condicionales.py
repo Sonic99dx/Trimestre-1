@@ -86,7 +86,7 @@
 # if lista[2]<=10:
 #     print("Es menor o igual a 10")
 # else:
-#     print("Es meyor o igual a 10")
+#     print("Es mayor o igual a 10")
 # print("Numero 7 donde estara")
 # lista2=[3, 5, 7, 9]
 # if lista2[2]==7:
@@ -107,19 +107,37 @@
 #     print("El nombre es marta")
 # else:
 #     print("EL nombre no es marta")
-print("Ejercicio num15")
-print("Ejercicio num15")
-lista5 = []
-for i in range(3):
-    color = input("Ingresa un color: ")
-    lista5.append(color)
+# print("Ejercicio num15")
+# lista5 = []
+# for i in range(3):
+#     color = input("Ingresa un color: ")
+#     lista5.append(color)
 
-print("Colores ingresados:", lista5)
-if "azul" in lista5:
-    lista5.remove("azul")  # Elimina la primera ocurrencia de "azul"
-    nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")    #algo
-    lista5.append(nuevo_color)
-else:
-    print("Todo está bien")
+# print("Colores ingresados:", lista5)
+# if "azul" in lista5:
+#     lista5.remove("azul")  
+#     nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")    #algo
+#     lista5.append(nuevo_color)
+# else:
+#     print("Todo está bien")
 
-print("Lista final:", lista5)
+# print("Lista final:", lista5)
+print("-----Ejercicios de tupla------------------------------------------------------------------------------------------------------------------------------------")
+# print("Tupla de valores")
+# tupla1=(5,8,12,20)
+# print(tupla1)
+# if tupla1[0]<tupla1[3]:
+#     print(f"La tupla esta en el siguiente orden {sorted(tupla1)}")
+# else:
+#     print(f"La tupla esta en el siguiente orden {sorted(tupla1, reverse=True)}")
+# print("Segundo valor mayor")
+# tupla2=(25,32,28)
+# if tupla2[1]>30:
+#     print("Edad mayor a 30")
+# else:
+#     print("Edad menor o igual a 30")
+print("Tupla convertida")
+tupla3=(1,2,3)
+lista3=list(tupla3)
+print(lista3)
+if 2 in lista3:
