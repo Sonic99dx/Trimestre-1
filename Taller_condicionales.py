@@ -79,6 +79,7 @@
 #     print(f"Es multiplo de {numver1} y {numver2}")
 # else:
 #     print("No es multiplo")
+ print("-----Ejercicios de listas------------------------------------------------------------------------------------------------------------------------------------")
 # print("Lista que bendicion")
 # lista=[]
 # lista=(int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")),int(input("Ingresa un numero")))
