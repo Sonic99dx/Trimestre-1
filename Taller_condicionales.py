@@ -115,7 +115,7 @@
 
 # print("Colores ingresados:", lista5)
 # if "azul" in lista5:
-#     lista5.remove("azul")  
+#     lista5.remove("azul")
 #     nuevo_color = input("Ingresa un nuevo color para reemplazar 'azul': ")    #algo
 #     lista5.append(nuevo_color)
 # else:
@@ -167,11 +167,32 @@ print("-----Ejercicios de diccionarios------------------------------------------
 #     print("Es un Adulto")
 # else:
 #     print("No es un adulto")
-print("Edad cambiada")
-dicc={"nombre":"Lucia","Edad":20}
-print("EL diccionario es: ",dicc)
-if dicc["Edad"]>18:
-    dicc["Edad"]=21
-    print("El nuevo diccionario es: ",dicc)
+# print("Edad cambiada")
+# dicc={"nombre":"Lucia","Edad":20}
+# print("EL diccionario es: ",dicc)
+# if dicc["Edad"]>18:
+#     dicc["Edad"]=21
+#     print("El nuevo diccionario es: ",dicc)
+# else:
+#     print("No se a cambiado nada")
+# print("Bogotano")
+# dicc2={"nombre":"Carlos"}
+# print("El diccionario es: ", dicc2)
+# if dicc2.get("Ciudad")==None:
+#     dicc2["Ciudad"]="Bogota"
+#     print("El nuevo diccionario es: ",dicc2)
+# else:
+#     print("No se cambio naada")
+# print("Pan")
+# prc4={"producto":"pan","precio":"1200"}
+# if prc4.get("precio")==None:
+#     print("No tiene precio")
+# else:
+#     print("Si tiene precio")
+print("Pan con leche")
+prc5={"pan":"1200","leche":2000}
+print(prc5)
+if prc5.get("pan")==None:
+    print("Producto no disonible")
 else:
-    print("No se a cambiado nada")
+    print("Producto disponible")
