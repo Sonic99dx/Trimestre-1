@@ -42,8 +42,6 @@ if "Smartwatch" in inventario:
 if "Sofia" in destacados:
     ficha_clientes={"nombre":"Sofia","producto":"Portatil","activo":"True"}
     print(ficha_clientes)
-    if ficha_clientes == True:
-        ficha_clientes["frecuencia"]="Mensual"
-        print(ficha_clientes)
-else:
-    print("no se encontro a sofia")
+    if "ficha_clientes" in locals:
+         ficha_clientes["frecuencia"]="Mensual"
+         print(ficha_clientes)        
